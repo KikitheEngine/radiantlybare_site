@@ -4,15 +4,15 @@ export default function Footer() {
   return (
     <footer className="bg-white">
       <div className="mx-6 border-t" style={{ borderColor: "#363c1f" }} />
-      <div className="mx-auto max-w-5xl px-6 pt-5 pb-8">
+      <div className="mx-auto max-w-5xl px-6 pt-10 pb-8">
         {/* Logo centered above columns */}
-        <div className="flex justify-center mb-5">
+        <div className="flex justify-center mb-10">
           <Image
             src="/images/logo.PNG"
             alt="Radiantlybare"
             width={160}
             height={64}
-            style={{ height: "auto", width: "185px" }}
+            style={{ height: "auto", width: "140px" }}
           />
         </div>
 

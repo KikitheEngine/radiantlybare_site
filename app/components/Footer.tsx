@@ -25,14 +25,17 @@ export default function Footer() {
             >
               Location
             </h3>
-            <p
-              className="text-sm leading-relaxed"
-              style={{ fontFamily: "var(--font-libre)", color: "#363c1f" }}
+            <a
+              href="https://maps.google.com/?q=116+N+Irwin+St,+Hanford,+CA+93230"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm leading-relaxed transition-colors hover:text-[#a27946]"
+              style={{ fontFamily: "var(--font-libre)", color: "#363c1f", textDecoration: "underline" }}
             >
               116 N Irwin St
               <br />
               Hanford, CA 93230
-            </p>
+            </a>
           </div>
 
           {/* Hours */}

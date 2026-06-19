@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       {/* ── Hero ── */}
-      <section className="py-20 px-6 bg-white">
+      <section className="pt-20 pb-28 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
 
           {/* Tagline */}

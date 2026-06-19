@@ -26,7 +26,7 @@ export default function Header() {
             width={140}
             height={56}
             loading="eager"
-            style={{ height: "auto", width: "120px" }}
+            style={{ height: "auto", width: "165px" }}
           />
         </Link>
 

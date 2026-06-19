@@ -46,7 +46,7 @@ export default function Home() {
           </p>
 
           {/* Mobile: column / Desktop: row */}
-          <div className="flex flex-col items-center gap-10 sm:flex-row sm:items-center sm:gap-16">
+          <div className="flex flex-col items-center gap-10 sm:flex-row sm:items-center sm:gap-28">
 
             {/* Tombstone image */}
             <div className="shrink-0">
@@ -135,7 +135,7 @@ export default function Home() {
           </h1>
 
           {/* 1 col on mobile, 3 col on desktop */}
-          <div className="grid grid-cols-1 gap-10 sm:grid-cols-3 sm:gap-12">
+          <div className="grid grid-cols-1 gap-16 sm:grid-cols-3 sm:gap-20">
             {services.map((service) => (
               <div
                 key={service.name}
@@ -174,7 +174,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="flex justify-center mt-14">
+          <div className="flex justify-center mt-24">
             <a
               href={GLOSSGENIUS_URL}
               target="_blank"

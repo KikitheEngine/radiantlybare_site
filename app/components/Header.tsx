@@ -17,16 +17,16 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white">
-      <div className="mx-auto max-w-5xl px-6 py-0 flex items-center justify-between">
+      <div className="mx-auto max-w-5xl px-6 flex items-center justify-between" style={{ height: "104px" }}>
         {/* Logo */}
         <Link href="/" onClick={() => setMobileOpen(false)}>
           <Image
             src="/images/logo.PNG"
             alt="Radiantlybare"
-            width={140}
-            height={56}
+            width={400}
+            height={200}
             loading="eager"
-            style={{ height: "auto", width: "165px" }}
+            style={{ height: "auto", width: "115px" }}
           />
         </Link>
 

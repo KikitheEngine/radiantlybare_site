@@ -96,11 +96,11 @@ export default function Home() {
                 href="/about"
                 style={{
                   display: "inline-block",
-                  padding: "0.9rem 2.25rem",
+                  padding: "1.1rem 2.75rem",
                   backgroundColor: "#415e07",
                   color: "#ffffff",
                   fontFamily: "var(--font-playfair)",
-                  fontSize: "0.875rem",
+                  fontSize: "0.95rem",
                   fontWeight: 600,
                   letterSpacing: "0.15em",
                   textTransform: "uppercase",
@@ -181,11 +181,11 @@ export default function Home() {
               rel="noopener noreferrer"
               style={{
                 display: "inline-block",
-                padding: "0.9rem 2.25rem",
+                padding: "1.1rem 2.75rem",
                 backgroundColor: "#415e07",
                 color: "#ffffff",
                 fontFamily: "var(--font-playfair)",
-                fontSize: "0.875rem",
+                fontSize: "0.95rem",
                 fontWeight: 600,
                 letterSpacing: "0.15em",
                 textTransform: "uppercase",

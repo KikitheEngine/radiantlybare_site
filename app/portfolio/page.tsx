@@ -17,7 +17,7 @@ const images = [
 
 export default function PortfolioPage() {
   return (
-    <section className="bg-white pt-14 pb-44 px-6">
+    <section className="bg-white pt-14 pb-60 px-6">
       <div className="mx-auto max-w-5xl">
         <h1
           className="mb-14"

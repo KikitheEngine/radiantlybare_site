@@ -27,7 +27,7 @@ export default function AboutPage() {
                 className="text-base leading-relaxed mb-5"
                 style={{ fontFamily: "var(--font-libre)", color: "#363c1f" }}
               >
-                Hi, I&apos;m Destinee! The founder and owner of Radiantlybare,
+                Hi, I&apos;m Destinee! The founder and owner of Radiantly Bare,
                 a licensed and insured esthetics studio located in downtown
                 Hanford, California. I specialize in Brazilian waxing and offer
                 a variety of other professional skincare services tailored to
@@ -48,7 +48,7 @@ export default function AboutPage() {
             <div className="shrink-0 flex justify-center sm:justify-end">
               <div
                 className="relative overflow-hidden"
-                style={{ width: "300px", height: "390px" }}
+                style={{ width: "340px", height: "440px" }}
               >
                 <Image
                   src="/images/portrait_1.webp"
@@ -68,7 +68,7 @@ export default function AboutPage() {
       <div className="mx-6" style={{ borderTop: "1px solid #363c1f" }} />
 
       {/* ── Cancellation Policy ── */}
-      <section className="pt-20 pb-44 px-6 bg-white">
+      <section className="pt-20 pb-60 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
           <h2
             className="mb-6"
@@ -95,7 +95,7 @@ export default function AboutPage() {
 
           <div
             className="relative overflow-hidden w-full max-w-xl"
-            style={{ height: "380px" }}
+            style={{ height: "400px" }}
           >
             <Image
               src="/images/lobby.webp"

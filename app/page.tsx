@@ -53,10 +53,10 @@ export default function Home() {
               <div
                 className="relative overflow-hidden"
                 style={{
-                  width: "300px",
-                  height: "430px",
-                  borderTopLeftRadius: "150px",
-                  borderTopRightRadius: "150px",
+                  width: "340px",
+                  height: "490px",
+                  borderTopLeftRadius: "170px",
+                  borderTopRightRadius: "170px",
                 }}
               >
                 <Image
@@ -120,7 +120,7 @@ export default function Home() {
       <div className="mx-6" style={{ borderTop: "1px solid #363c1f" }} />
 
       {/* ── Services ── */}
-      <section className="pt-20 pb-44 px-6 bg-white">
+      <section className="pt-20 pb-60 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
           <h1
             className="text-center mb-20"

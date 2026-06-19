@@ -17,14 +17,14 @@ const images = [
 
 export default function PortfolioPage() {
   return (
-    <section className="bg-white py-14 px-6">
+    <section className="bg-white pt-14 pb-44 px-6">
       <div className="mx-auto max-w-5xl">
         <h1
-          className="mb-10"
+          className="mb-14"
           style={{
             fontFamily: "var(--font-playfair)",
             color: "#a27946",
-            fontSize: "clamp(1.75rem, 6vw, 2.75rem)",
+            fontSize: "clamp(2.25rem, 6vw, 3.25rem)",
             fontWeight: 600,
           }}
         >

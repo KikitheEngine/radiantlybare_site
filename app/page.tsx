@@ -33,11 +33,11 @@ export default function Home() {
 
           {/* Tagline */}
           <p
-            className="text-center mb-12 leading-snug"
+            className="text-center mb-28 leading-snug"
             style={{
               fontFamily: "var(--font-playfair)",
               color: "#a27946",
-              fontSize: "clamp(2rem, 6.5vw, 3.5rem)",
+              fontSize: "clamp(2.5rem, 7.5vw, 4.5rem)",
               fontWeight: 600,
               letterSpacing: "0.03em",
             }}
@@ -76,7 +76,7 @@ export default function Home() {
                 style={{
                   fontFamily: "var(--font-playfair)",
                   color: "#a27946",
-                  fontSize: "clamp(1.75rem, 5.5vw, 2.75rem)",
+                  fontSize: "clamp(2.25rem, 6vw, 3.25rem)",
                   fontWeight: 600,
                   margin: 0,
                 }}
@@ -84,7 +84,7 @@ export default function Home() {
                 Who We Are
               </h1>
               <p
-                className="text-sm leading-relaxed"
+                className="text-base leading-relaxed"
                 style={{ fontFamily: "var(--font-libre)", color: "#363c1f" }}
               >
                 At Radiantly Bare, we believe in the magic of self-care and
@@ -96,16 +96,17 @@ export default function Home() {
                 href="/about"
                 style={{
                   display: "inline-block",
-                  padding: "0.75rem 2rem",
+                  padding: "1.25rem 3rem",
                   backgroundColor: "#415e07",
                   color: "#ffffff",
                   fontFamily: "var(--font-playfair)",
-                  fontSize: "0.75rem",
+                  fontSize: "1rem",
                   fontWeight: 600,
                   letterSpacing: "0.15em",
                   textTransform: "uppercase",
                   textDecoration: "none",
                   borderRadius: "8px",
+                  marginTop: "1rem",
                 }}
               >
                 Learn More
@@ -119,14 +120,14 @@ export default function Home() {
       <div className="mx-6" style={{ borderTop: "1px solid #363c1f" }} />
 
       {/* ── Services ── */}
-      <section className="py-20 px-6 bg-white">
+      <section className="pt-20 pb-44 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
           <h1
-            className="text-center mb-12"
+            className="text-center mb-20"
             style={{
               fontFamily: "var(--font-playfair)",
               color: "#a27946",
-              fontSize: "clamp(1.75rem, 5.5vw, 2.75rem)",
+              fontSize: "clamp(2.25rem, 6vw, 3.25rem)",
               fontWeight: 600,
             }}
           >
@@ -142,13 +143,13 @@ export default function Home() {
               >
                 <div
                   className="relative shrink-0 rounded-full overflow-hidden"
-                  style={{ width: "144px", height: "144px" }}
+                  style={{ width: "190px", height: "190px" }}
                 >
                   <Image
                     src={service.image}
                     alt={service.name}
                     fill
-                    sizes="144px"
+                    sizes="190px"
                     style={{ objectFit: "cover" }}
                   />
                 </div>
@@ -156,7 +157,7 @@ export default function Home() {
                   style={{
                     fontFamily: "var(--font-playfair)",
                     color: "#a27946",
-                    fontSize: "1.35rem",
+                    fontSize: "1.6rem",
                     fontWeight: 600,
                     margin: 0,
                   }}
@@ -164,7 +165,7 @@ export default function Home() {
                   {service.name}
                 </h3>
                 <p
-                  className="text-sm leading-relaxed"
+                  className="text-base leading-relaxed"
                   style={{ fontFamily: "var(--font-libre)", color: "#363c1f" }}
                 >
                   {service.description}
@@ -180,11 +181,11 @@ export default function Home() {
               rel="noopener noreferrer"
               style={{
                 display: "inline-block",
-                padding: "0.75rem 2rem",
+                padding: "1.25rem 3rem",
                 backgroundColor: "#415e07",
                 color: "#ffffff",
                 fontFamily: "var(--font-playfair)",
-                fontSize: "0.75rem",
+                fontSize: "1rem",
                 fontWeight: 600,
                 letterSpacing: "0.15em",
                 textTransform: "uppercase",
@@ -192,7 +193,7 @@ export default function Home() {
                 borderRadius: "8px",
               }}
             >
-              Click Here to See All Services
+              See All Services
             </a>
           </div>
         </div>

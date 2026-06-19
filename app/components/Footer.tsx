@@ -12,7 +12,7 @@ export default function Footer() {
             alt="Radiantlybare"
             width={160}
             height={64}
-            style={{ height: "auto", width: "160px" }}
+            style={{ height: "auto", width: "185px" }}
           />
         </div>
 

@@ -4,14 +4,14 @@ export default function AboutPage() {
   return (
     <>
       {/* ── Bio ── */}
-      <section className="py-14 px-6 bg-white">
+      <section className="py-20 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
           <h1
             className="mb-10"
             style={{
               fontFamily: "var(--font-playfair)",
               color: "#a27946",
-              fontSize: "clamp(1.75rem, 6vw, 2.75rem)",
+              fontSize: "clamp(2.25rem, 6vw, 3.25rem)",
               fontWeight: 600,
             }}
           >
@@ -24,7 +24,7 @@ export default function AboutPage() {
             {/* Text */}
             <div className="flex-1">
               <p
-                className="text-sm leading-relaxed mb-5"
+                className="text-base leading-relaxed mb-5"
                 style={{ fontFamily: "var(--font-libre)", color: "#363c1f" }}
               >
                 Hi, I&apos;m Destinee! The founder and owner of Radiantlybare,
@@ -34,7 +34,7 @@ export default function AboutPage() {
                 your needs.
               </p>
               <p
-                className="text-sm leading-relaxed"
+                className="text-base leading-relaxed"
                 style={{ fontFamily: "var(--font-libre)", color: "#363c1f" }}
               >
                 My mission is to provide exceptional care in a welcoming,
@@ -48,7 +48,7 @@ export default function AboutPage() {
             <div className="shrink-0 flex justify-center sm:justify-end">
               <div
                 className="relative overflow-hidden"
-                style={{ width: "260px", height: "340px" }}
+                style={{ width: "300px", height: "390px" }}
               >
                 <Image
                   src="/images/portrait_1.webp"
@@ -68,21 +68,21 @@ export default function AboutPage() {
       <div className="mx-6" style={{ borderTop: "1px solid #363c1f" }} />
 
       {/* ── Cancellation Policy ── */}
-      <section className="py-14 px-6 bg-white">
+      <section className="pt-20 pb-44 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
           <h2
             className="mb-6"
             style={{
               fontFamily: "var(--font-playfair)",
               color: "#a27946",
-              fontSize: "clamp(1.75rem, 5.5vw, 2.75rem)",
+              fontSize: "clamp(2.25rem, 6vw, 3.25rem)",
               fontWeight: 600,
             }}
           >
             Our Cancellation Policy
           </h2>
           <p
-            className="text-sm leading-relaxed mb-10 max-w-2xl"
+            className="text-base leading-relaxed mb-10 max-w-2xl"
             style={{ fontFamily: "var(--font-libre)", color: "#363c1f" }}
           >
             Cancellations or reschedules made within 24 hours of your
@@ -95,7 +95,7 @@ export default function AboutPage() {
 
           <div
             className="relative overflow-hidden w-full max-w-xl"
-            style={{ height: "280px" }}
+            style={{ height: "380px" }}
           >
             <Image
               src="/images/lobby.webp"

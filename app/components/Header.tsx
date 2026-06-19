@@ -26,7 +26,7 @@ export default function Header() {
             width={140}
             height={56}
             loading="eager"
-            style={{ height: "auto", width: "130px" }}
+            style={{ height: "auto", width: "175px" }}
           />
         </Link>
 
@@ -39,7 +39,7 @@ export default function Header() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm transition-colors hover:text-[#a27946]"
+                className="text-base transition-colors hover:text-[#a27946]"
                 style={{ fontFamily: "var(--font-playfair)", color: "#363c1f" }}
               >
                 {label}
@@ -48,7 +48,7 @@ export default function Header() {
               <Link
                 key={label}
                 href={href}
-                className="text-sm transition-colors hover:text-[#a27946]"
+                className="text-base transition-colors hover:text-[#a27946]"
                 style={{ fontFamily: "var(--font-playfair)", color: "#363c1f" }}
               >
                 {label}
@@ -61,12 +61,12 @@ export default function Header() {
             rel="noopener noreferrer"
             style={{
               fontFamily: "var(--font-playfair)",
-              fontSize: "0.8rem",
+              fontSize: "0.9rem",
               letterSpacing: "0.12em",
               textTransform: "uppercase",
               color: "#ffffff",
               backgroundColor: "#415e07",
-              padding: "0.5rem 1.25rem",
+              padding: "0.65rem 1.5rem",
               textDecoration: "none",
               display: "inline-block",
               borderRadius: "8px",
@@ -150,12 +150,12 @@ export default function Header() {
             rel="noopener noreferrer"
             style={{
               fontFamily: "var(--font-playfair)",
-              fontSize: "0.8rem",
+              fontSize: "0.9rem",
               letterSpacing: "0.12em",
               textTransform: "uppercase",
               color: "#ffffff",
               backgroundColor: "#415e07",
-              padding: "0.5rem 1.25rem",
+              padding: "0.65rem 1.5rem",
               textDecoration: "none",
               display: "inline-block",
               alignSelf: "flex-start",

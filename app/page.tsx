@@ -181,11 +181,11 @@ export default function Home() {
               rel="noopener noreferrer"
               style={{
                 display: "inline-block",
-                padding: "1.1rem 2.75rem",
+                padding: "1.25rem 3.25rem",
                 backgroundColor: "#415e07",
                 color: "#ffffff",
                 fontFamily: "var(--font-playfair)",
-                fontSize: "0.95rem",
+                fontSize: "1.05rem",
                 fontWeight: 600,
                 letterSpacing: "0.15em",
                 textTransform: "uppercase",
